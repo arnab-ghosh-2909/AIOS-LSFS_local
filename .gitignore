@@ -208,3 +208,19 @@ cache
 # Ignore configuration files
 aios/config/config.yaml
 /home/sysadm/Raihan/AIOS-LSFS_local/aios/config/config.yaml
+
+
+# Runtime data
+root/
+proc/
+
+# Vector DB
+*.sqlite3
+chroma_db/
+
+# Notebooks
+*.ipynb
+
+# Python
+__pycache__/
+*.pyc
